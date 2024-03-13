@@ -3,36 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sample Webpage</title>
     <style>
-        /* CSS styles remain the same */
-        /* You can paste the CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Header</h1>
-</header>
-
-<nav>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</nav>
-
-<section id="content">
-    <h2>Content Area</h2>
-    <p>This is the main content area.</p>
-    <button id="changeColorBtn">Change Content Area Color</button>
-</section>
-
-<footer>
-    <p>Footer</p>
-</footer>
-
-
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget ultricies libero. Donec consequat ante eu justo vehicula eleifend. Quisque in dui ac est molestie hendrerit. Nulla nec metus ultricies, bibendum neque in, tincidunt libero. Duis id feugiat velit. Aenean tempor sem nec ligula luctus, et euismod tortor feugiat.</p>
+        <h2>Our Services</h2>
+        <ul>
+            <li>Web Design</li>
+            <li>Graphic Design</li>
+            <li>SEO Optimization</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Sample Webpage. All rights reserved.</p>
+    </footer>
 </body>
 </html>
